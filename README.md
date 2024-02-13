@@ -1,6 +1,8 @@
 # Created by Kaan Genis.
 
-A React Native Template Project Based on RN 0.73.4 Version.
+A Stable React Native Template Project Based on RN 0.73.4 Version.
+
+*Android Libraries successfully configurated from Java to Kotlin. 
 
 You can pull repo and basically open terminal.
 
