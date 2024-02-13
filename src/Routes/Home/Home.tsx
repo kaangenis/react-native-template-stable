@@ -16,7 +16,7 @@ const Home = () => {
 
     return (
         <SafeAreaView style={styles.main}>
-            <Text>Home</Text>
+            <Text style={styles.homeText}>Home</Text>
             <TouchableOpacity onPress={goBack}>
                 <HomeIcon width={64} height={64} />
             </TouchableOpacity>
@@ -25,7 +25,7 @@ const Home = () => {
                     title="+"
                     onPress={increase}
                 />
-                <Text>{testState}</Text>
+                <Text style={styles.stateText}>{testState}</Text>
                 <Button
                     title="-"
                     onPress={decrease}
@@ -49,5 +49,14 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-between',
+    },
+    homeText: {
+        fontSize: 24,
+        fontFamily: 'OpenSans-Bold',
+        marginVertical: 20
+    },
+    stateText: {
+        fontSize: 18,
+        fontFamily: 'OpenSans-Regular',
     }
 })
