@@ -7,40 +7,63 @@ A Stable React Native Template Project Based on RN 0.73.4 Version.
 You can pull repo and basically open terminal.
 
 *in project path
-"npm install --legacy-peer-deps"
+
+
+"npm install --legacy-peer-deps
 &&
-"cd ios"
+cd ios
 &&
-"npx pod install"
+npx pod install
+&& 
+cd ..
 &&
-"cd .."
-&&
-"npm start"
+npm start"
 
 Thats it! Talk is cheap. Lets Code!
 
 Libraries:
+
 -AsyncStorage,
+
 -React Navigation,
+
 -Stack Navigator,
+
 -Bottom Tabs Navigator,
+
 -FlashList,
+
 -Axios,
+
 -Day.js,
+
 -Moti,
+
 -Toaster
+
 -RN Lottie,
+
 -RN Gesture Handler,
+
 -RN Reanimated,
+
 -RN Safe Area Context,
+
 -RN Screens,
+
 -RN SVG,
+
 -RN SVG Transformer
 
+
 Extras:
+
 -SVG Support,
+
 -Custom Fonts,
+
 -Redux & Redux Toolkit (includes basic template store in src/store)
+
 
 
 
