@@ -1,3 +1,53 @@
+# Created by Kaan Genis.
+
+A React Native Template Project Based on RN 0.73.4 Version.
+
+You can pull repo and basically open terminal.
+
+*in project path
+"npm install --legacy-peer-deps"
+&&
+"cd ios"
+&&
+"npx pod install"
+&&
+"cd .."
+&&
+"npm start"
+
+Thats it! Talk is cheap. Lets Code!
+
+Libraries:
+-AsyncStorage,
+-React Navigation,
+-Stack Navigator,
+-Bottom Tabs Navigator,
+-FlashList,
+-Axios,
+-Day.js,
+-Moti,
+-Toaster
+-RN Lottie,
+-RN Gesture Handler,
+-RN Reanimated,
+-RN Safe Area Context,
+-RN Screens,
+-RN SVG,
+-RN SVG Transformer
+
+Extras:
+-SVG Support,
+-Custom Fonts,
+-Redux & Redux Toolkit (includes basic template store in src/store)
+
+
+
+
+
+
+
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
