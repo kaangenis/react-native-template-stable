@@ -6,7 +6,7 @@ import {
     NativeStackNavigationProp
 } from "@react-navigation/native-stack";
 
-export const useNavigateHook = () => {
+export const useNavigationHook = () => {
 
     const navigation = useNavigation<NativeStackNavigationProp<ParamListBase>>();
 
