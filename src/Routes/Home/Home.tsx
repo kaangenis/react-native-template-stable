@@ -1,18 +1,24 @@
-import { Button, SafeAreaView, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
+import {
+    View,
+    Text,
+    Button,
+    StyleSheet,
+    SafeAreaView,
+    TouchableOpacity,
+} from 'react-native'
 import HomeIcon from '../../../assets/svg/home.svg'
 import { useDemoHook } from '../../Hooks/useDemoHook';
-import { useNavigateHook } from '../../Hooks/useNavigateHook';
+import { useNavigationHook } from '../../Hooks/useNavigationHook';
 
 const Home = () => {
-
     const {
         testState,
         increase,
         decrease
     } = useDemoHook();
 
-    const { goBack } = useNavigateHook();
+    const { goBack } = useNavigationHook();
 
     return (
         <SafeAreaView style={styles.main}>
